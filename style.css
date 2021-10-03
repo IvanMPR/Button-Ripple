@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #333;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  position: relative;
+  display: block;
+  margin: 15rem auto;
+  background-color: crimson;
+  border: 1px solid crimson;
+  outline: 2px solid #fff;
+  outline-offset: 5px;
+  padding: 1.5rem 3rem;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.animation {
+  animation: expand 0.8s;
+}
+
+@keyframes expand {
+  to {
+    transform: scale(5);
+    opacity: 0;
+  }
+}
