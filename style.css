@@ -48,8 +48,8 @@ button {
 @media screen and (max-width: 320px) {
   button {
     margin: 8rem auto;
-    padding: 1rem 2rem;
-    font-size: 1.7rem;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.6rem;
     outline-offset: 2px;
   }
 }
