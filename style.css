@@ -8,6 +8,7 @@ body {
   width: 100vw;
   height: 100vh;
   background: #333;
+  overflow: hidden;
 }
 
 h1 {
@@ -49,5 +50,6 @@ button {
     margin: 8rem auto;
     padding: 1rem 2rem;
     font-size: 1.7rem;
+    outline-offset: 2px;
   }
 }
