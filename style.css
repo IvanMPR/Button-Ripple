@@ -45,7 +45,7 @@ button {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   button {
     margin: 8rem auto;
     padding: 0.8rem 1.8rem;
